@@ -9,7 +9,7 @@ def grid_search_logreg(X_train, y_train):
         "solver": ["liblinear"]
     }
 
-    log_reg = LogisticRegression(random_state=1, max_iter=1000)
+    log_reg = LogisticRegression(random_state=42, max_iter=1000)
 
     gs = GridSearchCV(
         estimator=log_reg,
@@ -35,7 +35,7 @@ def grid_search_rf(X_train, y_train):
     }
 
     gs = GridSearchCV(
-        estimator=RandomForestClassifier(random_state=1),
+        estimator=RandomForestClassifier(random_state=42),
         param_grid=param_grid,
         scoring="accuracy",
         cv=5,
