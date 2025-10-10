@@ -50,8 +50,8 @@ Calibration analysis: assessed model reliability with calibration curves
 ```
 | Model               | ROC-AUC  | Accuracy |
 | ------------------- | -------- | -------- |
-| Logistic Regression | **0.73** | 0.65     |
-| Gradient Boosting   | 0.66     | **0.74** |
+| Logistic Regression | 0.73     | 0.65     |
+| Gradient Boosting   | 0.66     | 0.74     |
 | XGBoost             | 0.63     | 0.69     |
 | Random Forest       | 0.58     | 0.70     |
 
