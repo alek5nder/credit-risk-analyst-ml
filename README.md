@@ -13,7 +13,7 @@ This project explores the German Credit dataset, performs preprocessing and feat
 ---
 
 ## 🧱 Repository Structure
-
+```
 credit-risk-analyst/
 │
 ├── data/
@@ -31,3 +31,4 @@ credit-risk-analyst/
 │ └── test.py # Testing and validation scripts
 │
 └── index.ipynb # Main notebook with analysis and visualizations
+```
