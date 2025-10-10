@@ -32,3 +32,31 @@ credit-risk-analyst/
 │
 └── index.ipynb # Main notebook with analysis and visualizations
 ```
+
+## 🚀 Methodology
+
+Data preprocessing: handling categorical variables (One-Hot Encoding) and scaling numeric features
+
+Class balancing: upsampling minority class using sklearn.utils.resample
+
+Feature selection: Random Forest–based feature importance (top 24 selected features)
+
+Model comparison: Logistic Regression, Random Forest, Gradient Boosting, and XGBoost
+
+Evaluation metrics: Accuracy, ROC-AUC, Classification Report
+
+Calibration analysis: assessed model reliability with calibration curves
+
+```
+| Model               | ROC-AUC  | Accuracy |
+| ------------------- | -------- | -------- |
+| Logistic Regression | **0.73** | 0.65     |
+| Gradient Boosting   | 0.66     | **0.74** |
+| XGBoost             | 0.63     | 0.69     |
+| Random Forest       | 0.58     | 0.70     |
+
+```
+
+A. Jasiński
+📍 Data Analyst / Machine Learning
+💼 Focus areas: Credit risk modeling, predictive analytics, and financial data science.
